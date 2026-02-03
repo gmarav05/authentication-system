@@ -46,11 +46,10 @@ export default function SignupPage() {
             placeholder="password"
          />
          <button 
-            className="p-2 border border-gray-300 
-            rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-green-500 text-white"
+            className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-green-500 text-white"
             onClick={onSignUp}
             >
-            Sign Up
+            Sign Up here
          </button>
 
             <Link href='/login'>Visit Login Page</Link>
