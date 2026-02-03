@@ -1,7 +1,7 @@
-import { verify } from "crypto";
+// import { verify } from "crypto";
 import mongoose from "mongoose";
-import { unique } from "next/dist/build/utils";
-import { type } from "os";
+// import { unique } from "next/dist/build/utils";
+// import { type } from "os";
 
 const userSchema = new mongoose.Schema({
     username : {
